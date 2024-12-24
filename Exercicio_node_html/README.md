@@ -1,0 +1,1 @@
+Repositório destinado à prática de exercícios durante a aprendizagem de Node.js e Express.js. O presente projeto pratica a inserção e interação de páginas HTML através das rotas, bem como uso de parâmetros de rotas dinâmicas para personalizar uma informação na tela.

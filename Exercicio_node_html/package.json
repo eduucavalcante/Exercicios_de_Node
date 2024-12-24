@@ -1,0 +1,15 @@
+{
+  "name": "exercicio_node_html",
+  "version": "1.0.0",
+  "description": "Repositório destinado à prática de exercícios durante a aprendizagem de Node.js e Express.js. O presente projeto pratica a inserção e interação de páginas HTML através das rotas, bem como uso de parâmetros de rotas dinâmicas para personalizar uma informação na tela.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
