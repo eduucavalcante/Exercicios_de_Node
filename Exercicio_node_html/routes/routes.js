@@ -2,11 +2,11 @@ const express = require('express');
 const path = require('path');
 const router = express.Router();
 
-router.get('/', (req, res) {
-    res.sendFile(path.join(__dirname, 'views', 'index.html'));
+router.get('/', (req, res) => {
+    res.sendFile(path.resolve(req.app.get('views'), 'index.html'));
 });
 
-router.get('/user/:username') {
+router.get('/user/:username', (req, res) => {
     res.send(
         `<head>
             <meta charset="UTF-8">
@@ -17,6 +17,6 @@ router.get('/user/:username') {
              <h1>Bem-vindo, ${req.params.username}!</h1>
          </body>`
     );
-}
+});
 
 module.exports = router;

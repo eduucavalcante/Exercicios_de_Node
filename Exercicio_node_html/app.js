@@ -1,8 +1,11 @@
 const express = require('express');
 const routes = require('./routes/routes.js');
+const path = require('path');
 const PORT = 8081;
 
 const app = express();
+
+app.set('views', path.resolve(__dirname, 'views'));
 
 app.use('/', routes);
 
