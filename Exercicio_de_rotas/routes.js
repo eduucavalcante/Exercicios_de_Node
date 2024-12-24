@@ -9,4 +9,8 @@ router.get('/sobre', (req, res) => {
 	res.status(200).send('Este repositorio tem a finalidade de praticar durante os estudos de Node.js');
 });
 
+router.get('/user/:username', (req, res) => {
+	res.status(200).send(`Seja bem vindo, @${req.params.username}!`);
+});
+
 module.exports = router;
