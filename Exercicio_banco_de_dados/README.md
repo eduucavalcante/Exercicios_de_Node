@@ -1,0 +1,1 @@
+Exercício destinado a praticar a criação de um banco de dados MySQL, bem como conectá-lo ao back-end da aplicação, criar tabelas e inserir dados. Feito com Node.js, usando o ORM Sequelize para utilizar o banco de dados MySQL.
