@@ -1,0 +1,1 @@
+Modularização do código para criar tabelas MySQL e inserir dados: connection.js cria uma nova instância do Sequelize que conecta ao banco MySQL usando variáveis dotenv. O arquivo note.js é um model que descreve a tabela Notes. No app.js, é feita a sincronização com a tabela e novos dados são adicionados. Tecnologias: Node.js, Express.js, Sequelize, MySQL.
