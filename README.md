@@ -1,6 +1,6 @@
 ## Exercícios de Node.js
 
-Este repositório tem a finalidade única de registrar exercícios feitos para praticar Node.js. Cada pasta dentro do repositório é um exercício diferente. Até o momento, foi feito:
+Este repositório tem a finalidade única de registrar exercícios feitos para praticar back-end e criação de APIs com Node.js. Cada pasta dentro do repositório é um exercício diferente. Até o momento, foi feito:
 
 - Criação de server com o framework Express.js;
 - Criação de rotas com Express;
