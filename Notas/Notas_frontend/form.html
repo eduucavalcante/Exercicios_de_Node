@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova nota</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main>
+        <h1 id="fh1">Nova nota</h1>
+        
+        <form action="/add" method="post">
+            <input type="text" name="title" placeholder="Título" required>
+            <textarea type="text" rows="10" cols="33" name="conteudo" placeholder="Texto" required></textarea>
+            <button id="save" type="submit">Salvar</button>
+        </form>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scripts/addNote.js"></script>
+</body>
+</html>
