@@ -6,4 +6,6 @@ Este repositório tem a finalidade única de registrar exercícios feitos para p
 - Criação de rotas com Express;
 - Conexão e inserção de dados em um banco de dados MySQL, com o ORM Sequelize;
 - Criação de variáveis de ambiente com a biblioteca Dotenv;
-- Modularização dos códigos com Node Modules.
+- Modularização dos códigos com Node Modules;
+- Uso de template engine Handlebars;
+- CORS para permitir conexão entre front-end e back-end.
