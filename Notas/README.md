@@ -8,3 +8,5 @@ Este exercício visa a criação de um front-end separado e conectado ao back-en
 - Sequelize: ORM que manipula o banco de dados;
 - Dotenv: criação de variáveis de ambiente;
 - CORS: controla a segurança e permissão de conexão entre o front e o back.
+
+Obs.: o foco maior do exercício é na integração do front com o back, e não na estilização do front.
